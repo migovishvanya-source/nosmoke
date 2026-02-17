@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій Шлях до Свободи</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Мої Перемоги 🌿</h1>
+            <p>Керуй своїм життям самостійно</p>
+        </header>
+
+        <main id="habits-container">
+            </main>
+
+        <section class="stat-card add-form">
+            <h3>Додати нову ціль 🎯</h3>
+            <div class="input-group">
+                <input type="text" id="habit-name" placeholder="Назва (напр. Енергетики)">
+                <input type="date" id="habit-date">
+                <input type="number" id="habit-cost" placeholder="Грн на день (напр. 40)">
+            </div>
+            <button onclick="addNewHabit()" class="add-btn">Додати в список</button>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
